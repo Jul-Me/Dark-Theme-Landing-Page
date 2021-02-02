@@ -1,1 +1,2 @@
-# Dark-Theme-Landing-Page
+# About
+This is a personal project build in HTML5 and CSS purely. A dark theme landing page for a tech product. My goal was to practise more on the design aspect and layout on this project while maintaining my code as clean as possible and using semantic HTML5 markup and reusable CSS classes.
