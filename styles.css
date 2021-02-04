@@ -54,13 +54,13 @@ li {
   cursor: pointer;
 }
 
-.intro {
+.intro,
+.introCurve {
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
   font-family: 'Open Sans';
-  padding: 0 200px;
 }
 
 .intro h1 {
@@ -75,6 +75,13 @@ li {
   overflow: hidden;
   max-height: 300px;
   height: auto;
+}
+
+.introCurve {
+  background-image: url(images/bg-curvy-desktop.svg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 100%;
 }
 
 .btn {
@@ -98,15 +105,60 @@ li {
 
 .services {
   display: flex;
-  justify-content: center;
   flex-direction: column;
+  width: auto;
+  background-color: #171f2b;
+  padding: 0px 200px;
+}
+
+.servicesUpper {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
   text-align: center;
   align-items: center;
   overflow: hidden;
   font-family: 'Open Sans';
-  padding: 0 200px;ß
+  margin: 3rem;
 }
 
-.services {
+.servicesLower {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  overflow: hidden;
+  font-family: 'Open Sans';
+}
+
+.midSection {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-content: space-evenly;
+  align-items: center;
   background-color: #171f2b;
+  font-family: 'Open Sans';
+  padding-top: 10rem;
+}
+
+.midImage {
+  background-image: url(images/illustration-stay-productive.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.midText {
+  padding-left: 6rem;
+}
+
+a:link {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: blue;
 }
